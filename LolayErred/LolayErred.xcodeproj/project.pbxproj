@@ -26,6 +26,7 @@
 		DC94B55D189092EA0058E6E0 /* Localizable.strings in CopyFiles */ = {isa = PBXBuildFile; fileRef = DC94B558189091870058E6E0 /* Localizable.strings */; };
 		DC94B55F189185D80058E6E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC94B55E189185D70058E6E0 /* UIKit.framework */; };
 		DC94B56218919D170058E6E0 /* MockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC94B56118919D170058E6E0 /* MockDelegate.m */; };
+		DCA96F4E189893A6009029A8 /* LolayErred.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DCA96F4D189893A6009029A8 /* LolayErred.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		DC94B55E189185D70058E6E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DC94B56018919D170058E6E0 /* MockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockDelegate.h; sourceTree = "<group>"; };
 		DC94B56118919D170058E6E0 /* MockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockDelegate.m; sourceTree = "<group>"; };
+		DC9D54EF18975F5B0061D9AD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DCA96F4D189893A6009029A8 /* LolayErred.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LolayErred.podspec; path = ../LolayErred.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 		DC94B502188FA5DD0058E6E0 = {
 			isa = PBXGroup;
 			children = (
+				DCA96F4D189893A6009029A8 /* LolayErred.podspec */,
+				DC9D54EF18975F5B0061D9AD /* LICENSE */,
 				DC94B53D188FAA500058E6E0 /* OCMock */,
 				DC94B510188FA5DD0058E6E0 /* LolayErred */,
 				DC94B524188FA5DD0058E6E0 /* LolayErredTests */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC94B529188FA5DD0058E6E0 /* InfoPlist.strings in Resources */,
+				DCA96F4E189893A6009029A8 /* LolayErred.podspec in Resources */,
 				DC94B55B189091870058E6E0 /* Localizable.strings in Resources */,
 				DC94B55A189091870058E6E0 /* EMSInfoPlist.strings in Resources */,
 			);
